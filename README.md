@@ -146,7 +146,7 @@ There are several .ipynb files saved in the **Deep_Learning_Challenge** folder, 
 There are also several HDF5 files saved in the **Deep_Learning_Challenge** folder, namely the original model (AlphabetSoupCharity.h5) and three model modifications (AlphabetSoupCharity_Mod1.h5; AlphabetSoupCharity_Mod2.h5; AlphabetSoupCharity_Mod3.h5, respectively)
 
 
-The report is filed in the **Report** folder in a file named "neural_network_model_report.doc".
+The report is filed in the **Report** folder in a file named "neural_network_model_report.pdf".
 
 
 The output is stored in the **Output** folder and represent the original model and three modified models' layers configuration and accuracy/loss metrics.
