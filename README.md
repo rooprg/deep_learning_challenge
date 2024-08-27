@@ -85,7 +85,7 @@ The initial model did not meet model performance, as the Accuracy was calculated
 Initial model-
 
 
-![Original Layers](/Output/original_layers.png)
+![Original Layers](Deep_Learning_Challenge/Output/original_layers.png)
 
 
 ![Accuracy and Loss](Output/original_accuracy_loss.png)
@@ -93,7 +93,7 @@ Initial model-
 
 The first modification was to increase the number of Epochs to 200, but this lowered the Accuracy score to 0.7297 and increased the Loss to 0.5839.
 
-![Layers](Output/mod1_layers.png)
+![Layers](Deep_Learning_Challenge/Output/mod1_layers.png)
 
 
 ![Accuracy and Loss](Output/mod1_accuracy_loss.png)
