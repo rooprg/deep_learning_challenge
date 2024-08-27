@@ -86,10 +86,12 @@ Initial model-
 
 
 Layers:
+
 ![Original Layers](Deep_Learning_Challenge/Output/original_layers.png)
 
 
 Accuracy and Loss:
+
 ![Accuracy and Loss](Deep_Learning_Challenge/Output/original_accuracy_loss.png)
 
 
@@ -97,10 +99,12 @@ The first modification was to increase the number of Epochs to 200, but this low
 
 
 Layers:
+
 ![Layers](Deep_Learning_Challenge/Output/mod1_layers.png)
 
 
 Accuracy and Loss:
+
 ![Accuracy and Loss](Deep_Learning_Challenge/Output/mod1_accuracy_loss.png)
 
 
@@ -108,10 +112,12 @@ Subsequently, for the second modification, the number of Epochs was returned to 
 
 
 Layers:
+
 ![Layers](Deep_Learning_Challenge/Output/mod2_layers.png)
 
 
 Accuracy and Loss:
+
 ![Accuracy and Loss](Deep_Learning_Challenge/Output/mod2_accuracy_loss.png)
 
 
@@ -119,10 +125,12 @@ Finally, the last modification, returned the model to 3 layers (35 neurons, 35 n
 
 
 Layers:
+
 ![Layers](Deep_Learning_Challenge/Output/mod3_layers.png)
 
 
 Accuracy and Loss:
+
 ![Accuracy and Loss](Deep_Learning_Challenge/Output/mod3_accuracy_loss.png)
 
 
@@ -138,14 +146,35 @@ In data preprocessing, two columns (APPLICATION_TYPE and CLASSIFICATION) were gi
 
 **(6) Ethical Considerations:**
 
-(Discuss any ethical considerations taken into account during the project, such as data privacy, bias, or fairness)
+The original spreadsheet contains potentially sensitive corporate financial information. Care should be given to storage of the dataset. After preprocessing, coporate identities have been removed, so the results; analysis; and output may not have the same sensitive information included.
 
 
 **(7) Instructions for Interacting with the Project:**
 
-(Provide clear instructions on how to interact with the visualizations, such as how to run the code or access the visualizations)
+There are several .ipynb files saved in the **Deep_Learning_Challenge** folder, namely the original code (code_roop_final.ipynb) and three model modifications with different code elements (alphabetsoupcharity_optimization_roop_mod1.ipynb; alphabetsoupcharity_optimization_roop_mod2.ipynb; and alphabetsoupcharity_optimization_roop_mod3.ipynb, respectively).
 
 
-**(8) References:**
+There are also several HDF5 files saved in the **Deep_Learning_Challenge** folder, namely the original model (AlphabetSoupCharity.h5) and three model modifications (AlphabetSoupCharity_Mod1.h5; AlphabetSoupCharity_Mod2.h5; AlphabetSoupCharity_Mod3.h5, respectively)
 
-use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded 
+
+The report is filed in the **Report** folder in a file named "neural_network_model_report.doc".
+
+
+The output is stored in the **Output** folder and represent the original model and three modified models' layers configuration and accuracy/loss metrics.
+
+
+**(8) Citations:**
+
+(a) Saving models at https://www.tensorflow.org/tutorials/keras/save_and_load
+
+(b) Xpert Learning Assistant- asked questions about-
+
+(i) pd.get_dummies() and converting to categorical data
+
+(ii) random_state characteristics
+
+(iii) shaping data
+
+(iv) calculating input features
+
+(v) exporting a HDF5 (.h5) and .keras files
