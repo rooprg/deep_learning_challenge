@@ -82,13 +82,37 @@ The initial model did not meet model performance, as the Accuracy was calculated
 (iii) What steps did you take in your attempts to increase model performance?
 
 
+Initial model-
+
+![Layers](/Output/original_layers.png)
+
+
+![Accuracy and Loss](/Output/original_accuracy_loss.png)
+
+
 The first modification was to increase the number of Epochs to 200, but this lowered the Accuracy score to 0.7297 and increased the Loss to 0.5839.
+
+![Layers](/Output/mod1_layers.png)
+
+
+![Accuracy and Loss](/Output/mod1_accuracy_loss.png)
 
 
 Subsequently, for the second modification, the number of Epochs was returned to 100 and a fourth layer of 35 neurons (with RELU) was added. The Accuracy score finished 0.7300 and Loss equaling 0.5648.
 
+![Layers](/Output/mod2_layers.png)
+
+
+![Accuracy and Loss](/Output/mod2_accuracy_loss.png)
+
 
 Finally, the last modification, returned the model to 3 layers (35 neurons, 35 neurons, and 1 neuron) and changed the activation functions to SIGMOID for all layers. The Accuracy score finished as 0.7306, with Loss equaling 0.5525.
+
+
+![Layers](/Output/mod3_layers.png)
+
+
+![Accuracy and Loss](/Output/mod3_accuracy_loss.png)
 
 
 SUMMARY
