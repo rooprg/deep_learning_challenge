@@ -84,7 +84,7 @@ The initial model did not meet model performance, as the Accuracy was calculated
 
 Initial model-
 
-![Layers](Output/original_layers.png)
+![Layers](../Output/original_layers.png)
 
 
 ![Accuracy and Loss](Output/original_accuracy_loss.png)
